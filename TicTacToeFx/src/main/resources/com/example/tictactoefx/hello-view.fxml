@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tictactoefx.HelloController">
+   <children>
+      <Button id="button4" fx:id="button4" layoutY="286.0" maxHeight="150.0" maxWidth="150.0" minHeight="150.0" minWidth="150.0" mnemonicParsing="false" onAction="#onClickMethod" prefHeight="150.0" prefWidth="150.0" text=" ">
+         <font>
+            <Font name="System Bold" size="60.0" />
+         </font>
+      </Button>
+      <Button id="button5" fx:id="button5" layoutX="150.0" layoutY="286.0" maxHeight="150.0" maxWidth="150.0" minHeight="150.0" minWidth="150.0" mnemonicParsing="false" onAction="#onClickMethod" prefHeight="150.0" prefWidth="150.0" text=" ">
+         <font>
+            <Font name="System Bold" size="60.0" />
+         </font>
+      </Button>
+      <Button id="button6" fx:id="button6" layoutX="300.0" layoutY="286.0" maxHeight="150.0" maxWidth="150.0" minHeight="150.0" minWidth="150.0" mnemonicParsing="false" onAction="#onClickMethod" prefHeight="150.0" prefWidth="150.0" text=" ">
+         <font>
+            <Font name="System Bold" size="60.0" />
+         </font>
+      </Button>
+      <Button id="button9" fx:id="button9" layoutX="300.0" layoutY="436.0" maxHeight="150.0" maxWidth="150.0" minHeight="150.0" minWidth="150.0" mnemonicParsing="false" onAction="#onClickMethod" prefHeight="150.0" prefWidth="150.0" text=" ">
+         <font>
+            <Font name="System Bold" size="60.0" />
+         </font>
+      </Button>
+      <Button id="button8" fx:id="button8" layoutX="150.0" layoutY="436.0" maxHeight="150.0" maxWidth="150.0" minHeight="150.0" minWidth="150.0" mnemonicParsing="false" onAction="#onClickMethod" prefHeight="150.0" prefWidth="150.0" text=" ">
+         <font>
+            <Font name="System Bold" size="60.0" />
+         </font>
+      </Button>
+      <Button id="button7" fx:id="button7" layoutY="436.0" maxHeight="150.0" maxWidth="150.0" minHeight="150.0" minWidth="150.0" mnemonicParsing="false" onAction="#onClickMethod" prefHeight="150.0" prefWidth="150.0" text=" ">
+         <font>
+            <Font name="System Bold" size="60.0" />
+         </font>
+      </Button>
+      <Button id="button1" fx:id="button1" layoutY="136.0" maxHeight="150.0" maxWidth="150.0" minHeight="150.0" minWidth="150.0" mnemonicParsing="false" onAction="#onClickMethod" prefHeight="150.0" prefWidth="150.0" text=" ">
+         <font>
+            <Font name="System Bold" size="60.0" />
+         </font>
+      </Button>
+      <Button id="button2" fx:id="button2" layoutX="150.0" layoutY="136.0" maxHeight="150.0" maxWidth="150.0" minHeight="150.0" minWidth="150.0" mnemonicParsing="false" onAction="#onClickMethod" prefHeight="150.0" prefWidth="150.0" text=" ">
+         <font>
+            <Font name="System Bold" size="60.0" />
+         </font>
+      </Button>
+      <Button id="button3" fx:id="button3" layoutX="300.0" layoutY="136.0" maxHeight="150.0" maxWidth="150.0" minHeight="150.0" minWidth="150.0" mnemonicParsing="false" onAction="#onClickMethod" prefHeight="150.0" prefWidth="150.0" text=" ">
+         <font>
+            <Font name="System Bold" size="60.0" />
+         </font>
+      </Button>
+      <Button id="buttonRestart" fx:id="buttonRestart" layoutX="480.0" layoutY="336.0" mnemonicParsing="false" onAction="#onClickMethodRestart" text="Restart">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Label id="`winnerText" fx:id="winnerText" layoutX="201.0" layoutY="37.0" text="Tic Tac Toe" textAlignment="CENTER">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="humanVsComputer" layoutX="455.0" layoutY="156.0" mnemonicParsing="false" text="Human vs Computer" />
+      <RadioButton fx:id="humanVsHuman" layoutX="455.0" layoutY="193.0" mnemonicParsing="false" text="Human vs Human" />
+   </children>
+</Pane>
